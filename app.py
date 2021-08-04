@@ -39,6 +39,7 @@ options = [
 ]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 #create layout
 app.layout = html.Div([
     html.H1("Corona Virus Pendemic", style = {"color":'#fff', 'text-align':'center', 'margin':'10px'}),
